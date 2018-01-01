@@ -1,1 +1,2 @@
-# TBD: Automatically generating Processor toolchains from **T**oolchain **B**uild **D**escription
+# TBD: Toolchain Build Description
+Automatically generating miro-processor's toolchains from single description
