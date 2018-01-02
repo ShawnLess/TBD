@@ -1,4 +1,4 @@
 theme: jekyll-theme-slate
 title: TBD 
-description: A Toolchain Build Description for micro-processor
+description: Automatically generating miro-processor's toolchains from single description
 github: [metadata]
