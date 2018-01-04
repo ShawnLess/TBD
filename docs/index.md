@@ -28,7 +28,7 @@ on property tools, make it hard to do furthur integration and extension.
 TBD is an open source tool that generates toolchains for ASIP. It has following advantages:
 1. **Single specification** and complete toolchain, easy for maintaining
 2. **Open source**.
-3. **Explicit Backend**: Based on popular tools like *LLVM* and *Gem5*, low leaning curve and easy to extend
+3. **Explicit Backend**: Based on popular tools like [LLVM](http://www.llvm.org) and [Gem5](http://www.gem5.org/Main_Page), low leaning curve and easy to extend
 
 # Table of content
 
