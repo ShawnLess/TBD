@@ -1,4 +1,4 @@
-<img src="{{ site.baseurl }}/assets/user_images/TBD.png">
+![TBD Architecture]({{ site.baseurl }}/assets/user_images/TBD.png)
 
 # Why TBD?
 **A**pplicaton **S**pecific **I**nstruction-set **P**rocessors (**ASIP**) are processors that are highly tailored 
