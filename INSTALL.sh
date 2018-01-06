@@ -3,7 +3,7 @@ root=`pwd`
 
 # Check argument
 llvm_en=1
-debug_mode=0
+debug_mode=1
 install_path=
 while (( $# != 0 ))
 do
@@ -65,7 +65,7 @@ if [ "$llvm_en" -eq 1 ]; then
 	mkdir build_llvm
   fi
   cd build_llvm
-  cmake $source_path/llvm-5.0.1.src -DLLVM_TARGETS_TO_BUILD="X86;RISCV" -DCMAKE_INSTALL_PREFIX=$install_path -DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD="RISCV"
+  cmake $source_path/llvm-5.0.1.src -DLLVM_TARGETS_TO_BUILD="X86" -DCMAKE_INSTALL_PREFIX=$install_path -DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD="TBD"
   make $MCFLAG || llvm_err=1
   if [ "$debug_mode" -eq 0 ]; then 
     make install
