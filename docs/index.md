@@ -33,7 +33,7 @@ lower learning curve and easy to extend
 
 # Table of content
 
-|  version  | Descrition               | Docuemnt                 |
+|  Version  | Descrition               | Document                 |
 |-----------|--------------------------|-----------               |
 |  v0.0.0   | Clean LLVM 5.0.1 source  | [subdocs/v0-0-0.md](subdocs/v0-0-0)   |
 |  v0.0.1   | Added LLVM Target 'tbd'  | [subdocs/v0-0-1.md](subdocs/v0-0-1)   |
