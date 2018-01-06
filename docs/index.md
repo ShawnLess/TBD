@@ -33,6 +33,11 @@ lower learning curve and easy to extend
 
 # Table of content
 
+|  version  | Descrition               | Docuemnt                 |
+|-----------|--------------------------|-----------               |
+|  v0.0.0   | Clean LLVM 5.0.1 source  | [subdocs/v0-0-0.md](subdocs/v0-0-0)   |
+|  v0.0.1   | Added LLVM Target 'tbd'  | [subdocs/v0-0-1.md](subdocs/v0-0-1)   |
+
 ## Really To Be Done 1:
 1. Added a target in the latest stable LLVM-MC, with single instruction assemble/disassemble ability.
 2. Added a target in the latest stable LLVM-LLD, with single relocation relocation ability.
