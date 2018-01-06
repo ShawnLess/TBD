@@ -18,6 +18,6 @@ Target & getTheTBDTarget() {
 
 extern "C" void LLVMInitializeTBDTargetInfo() {
   llvm::RegisterTarget<llvm::Triple::tbd> X(llvm::getTheTBDTarget(), "tbd",
-                                            "Atmel TBD Microcontroller");
+                                            "TBD Generator");
 }
 
