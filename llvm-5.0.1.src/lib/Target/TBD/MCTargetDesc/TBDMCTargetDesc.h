@@ -30,6 +30,11 @@ class Target;
 class Triple;
 class raw_pwrite_stream;
 
-Target &getTheTBDTarget();
+Target & getTheTBDTarget();
 } // end namespace llvm
+
+//include the RegisterInfo
+#define GET_REGINFO_ENUM
+#include "TBDGenRegisterInfo.inc"
+
 #endif // LLVM_TBD_MCTARGET_DESC_H

@@ -16,18 +16,25 @@
 #include "llvm/MC/MCRegisterInfo.h"
 #include "llvm/MC/MCSubtargetInfo.h"
 #include "llvm/Support/TargetRegistry.h"
-/*
-#define GET_INSTRINFO_MC_DESC
-#include "TBDGenInstrInfo.inc"
 
-#define GET_SUBTARGETINFO_MC_DESC
-#include "TBDGenSubtargetInfo.inc"
+#include "TBDMCAsmInfo.h"
+#include "TBDMCTargetDesc.h"
 
-#define GET_REGINFO_MC_DESC
-#include "TBDGenRegisterInfo.inc"
-*/
 using namespace llvm;
 
+static MCRegisterInfo *
+createTBDMCRegisterInfo(const Triple &TT) {
+  MCRegisterInfo *X = new MCRegisterInfo();
+  return X;
+}
+
+
+
 extern "C" void LLVMInitializeTBDTargetMC() {
+  // Register the MC asm info, using the default settings.
+  RegisterMCAsmInfo<TBDMCAsmInfo> X( getTheTBDTarget() );
+
+  // Register the MC register info.
+  TargetRegistry::RegisterMCRegInfo( getTheTBDTarget(), createTBDMCRegisterInfo);
 }
 
