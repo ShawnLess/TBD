@@ -37,4 +37,8 @@ Target & getTheTBDTarget();
 #define GET_REGINFO_ENUM
 #include "TBDGenRegisterInfo.inc"
 
+// Defines symbolic names for the TBD instructions.
+#define GET_INSTRINFO_ENUM
+#include "TBDGenInstrInfo.inc"
+
 #endif // LLVM_TBD_MCTARGET_DESC_H

@@ -16,13 +16,13 @@
 ;===------------------------------------------------------------------------===;
 
 [common]
-subdirectories = TargetInfo MCTargetDesc
+subdirectories = TargetInfo MCTargetDesc InstPrinter
 
 [component_0]
 type = TargetGroup
 name = TBD
 parent = Target
-has_asmprinter = 0
+has_asmprinter = 1
 has_asmparser = 0
 has_disassembler = 0
 
@@ -30,6 +30,6 @@ has_disassembler = 0
 type = Library
 name = TBDCodeGen
 parent = TBD
-required_libraries = CodeGen Core MC TBDDesc TBDInfo SelectionDAG Support Target 
+required_libraries = CodeGen Core MC TBDAsmPrinter TBDDesc TBDInfo SelectionDAG Support Target 
 add_to_library_groups = TBD
 
