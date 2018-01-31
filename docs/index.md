@@ -36,8 +36,9 @@ lower learning curve and easy to extend
 |  Version  | Descrition                                | Document                 |
 |-----------|--------------------------                 |-----------               |
 |  v0.0.0   | Clean LLVM 5.0.1 source                   | [subdocs/v0-0-0.md](subdocs/v0-0-0)   |
-|  v0.0.1   | Added LLVM Target 'tbd'                   | [subdocs/v0-0-1.md](subdocs/v0-0-1)   |
-|  v0.0.2   | Added the Target Description (Tablegen as .td) and AsmInfo| [subdocs/v0-0-2.md](subdocs/v0-0-2)   |
+|  v0.0.1   | LLVM Target 'tbd'                         | [subdocs/v0-0-1.md](subdocs/v0-0-1)   |
+|  v0.0.2   | Target Description (Tablegen as .td) and AsmInfo| [subdocs/v0-0-2.md](subdocs/v0-0-2)   |
+|  v0.0.3   | An Simple Instruciton and InstPrinter     | [subdocs/v0-0-3.md](subdocs/v0-0-3)   |
 
 ## Really To Be Done 1:
 1. Added a target in the latest stable LLVM-MC, with single instruction assemble/disassemble ability.
