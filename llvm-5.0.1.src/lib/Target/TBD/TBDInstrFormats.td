@@ -22,7 +22,7 @@ class TBDInst<dag outs, dag ins, string asmstr, list<dag> pattern> : Instruction
   let Pattern         = pattern ;
 
   field bits<32> Inst     ;
-  field bits<32> SoftFails;  // Mask bits for reservied fieldsFails;  // Mask bits for reservied fields
+  field bits<32> SoftFail ;  // Mask bits for reservied fieldsFails;  // Mask bits for reservied fields
   let   Size = 4          ;  // The instruction in bytes  
 }
 
