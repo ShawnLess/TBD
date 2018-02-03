@@ -5,7 +5,7 @@
 to specific domain and thus gains huge efficiency while maintains the progammbility. 
 
 Due to the emerging computation workloads like the baseband processing for LTE, neural network processing for Deep Learning,
-and High resulotion image processing etc, ASIP is becoming very popular.
+and High resolution image processing etc, ASIP is becoming very popular.
 
 Many companies began to develope they own ASIPs, like the Google TPU&amp;IPU and other numerous AI chips. 
 Nevertheless, building a ASIP toolchain from scratch is time consuming 
@@ -33,12 +33,13 @@ lower learning curve and easy to extend
 
 # Table of content
 
-|  Version  | Descrition                                | Document                 |
+|  Version  | Description                                | Document                 |
 |-----------|--------------------------                 |-----------               |
 |  v0.0.0   | Clean LLVM 5.0.1 source                   | [subdocs/v0-0-0.md](subdocs/v0-0-0)   |
 |  v0.0.1   | LLVM Target 'tbd'                         | [subdocs/v0-0-1.md](subdocs/v0-0-1)   |
 |  v0.0.2   | Target Description (Tablegen as .td) and AsmInfo| [subdocs/v0-0-2.md](subdocs/v0-0-2)   |
 |  v0.0.3   | An Simple Instruciton and InstPrinter     | [subdocs/v0-0-3.md](subdocs/v0-0-3)   |
+|  v0.0.4   | With Disassembler                         | [subdocs/v0-0-4.md](subdocs/v0-0-4)   |
 
 ## Really To Be Done 1:
 1. Added a target in the latest stable LLVM-MC, with single instruction assemble/disassemble ability.
