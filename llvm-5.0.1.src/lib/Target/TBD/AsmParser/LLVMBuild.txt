@@ -1,4 +1,4 @@
-;===- ./lib/Target/TBD/LLVMBuild.txt ---------------------------*- Conf -*--===;
+;===- ./lib/Target/TBD/AsmParser/LLVMBuild.txt -----------------*- Conf -*--===;
 ;
 ;                     The LLVM Compiler Infrastructure
 ;
@@ -15,21 +15,9 @@
 ;
 ;===------------------------------------------------------------------------===;
 
-[common]
-subdirectories = TargetInfo MCTargetDesc InstPrinter Disassembler AsmParser
-
 [component_0]
-type = TargetGroup
-name = TBD
-parent = Target
-has_asmprinter = 1
-has_asmparser = 1
-has_disassembler = 1
-
-[component_1]
 type = Library
-name = TBDCodeGen
+name = TBDAsmParser
 parent = TBD
-required_libraries = CodeGen Core MC TBDAsmPrinter TBDDesc TBDInfo SelectionDAG Support Target 
+required_libraries = MC MCParser TBDDesc TBDInfo Support
 add_to_library_groups = TBD
-
